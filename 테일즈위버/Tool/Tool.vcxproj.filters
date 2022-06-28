@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.WinApp">
+      <UniqueIdentifier>{4d52e1e5-89e1-4880-b140-26297ef7620f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Document">
+      <UniqueIdentifier>{ca1a6c9a-99e6-400e-824e-9f2b59c322a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.MainFrame">
+      <UniqueIdentifier>{bc503d08-1873-44f1-8c57-c384d7643ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View">
+      <UniqueIdentifier>{9f3256e0-7199-4b0f-bf32-1e3f4cef6bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{9339bc30-a267-41ed-b85f-116faf824211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers">
+      <UniqueIdentifier>{91d85bb7-8b1c-4cc1-820f-1013014b45f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\00.DeviceMgr">
+      <UniqueIdentifier>{36b5c583-c635-4224-9fb2-a8c1f268af6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\01.TextureMgr">
+      <UniqueIdentifier>{dd6d5b4f-9bfe-4687-bc08-6d6eb509b2e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\01.TextureMgr\00.Texture">
+      <UniqueIdentifier>{a563156e-4123-4cd6-9bd1-62ed4cb6f187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\01.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{de9e5ab0-9959-4e32-a29c-4b2bd3e919cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\01.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{f92972f2-2667-41b1-a05b-ca9e2f18fe26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog">
+      <UniqueIdentifier>{25a032bb-bf94-44f2-bc44-ba5621e61d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.View\00.FormView">
+      <UniqueIdentifier>{e002c55b-aa8d-471d-a151-47425ba65753}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\03.KeyMgr">
+      <UniqueIdentifier>{4bd25040-d0da-4e3d-8aac-f908d415fcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\04.MouseMgr">
+      <UniqueIdentifier>{c7a01eae-7620-4dbb-a4e8-4ffdc8e769b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\05.TimeMgr">
+      <UniqueIdentifier>{2fadda7e-1a4c-4032-af01-b6eb3d2a8a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\06.FrameMgr">
+      <UniqueIdentifier>{87d0533f-04b8-46ca-9f4c-ae378b94c535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog">
+      <UniqueIdentifier>{947bef51-74fd-46a5-8e62-01c00a741318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\07.FileInfoMgr">
+      <UniqueIdentifier>{98c02713-6415-47ce-a633-7191107592a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Terrain">
+      <UniqueIdentifier>{7da4e20a-02c1-418f-9ee1-90e8af6bd3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\00.SpriteTool">
+      <UniqueIdentifier>{0d2121a4-0c8c-4255-a719-1a107213dc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\01.UnitTool">
+      <UniqueIdentifier>{3d7a8453-c08e-41d7-89b5-b2cac69dfebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\02.MapTool">
+      <UniqueIdentifier>{01d0c619-4bb8-4297-9c62-178d14f21eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\02.MapTool\00.AddMap">
+      <UniqueIdentifier>{d604c2e7-0edd-4d2b-aeff-3bcc1f3e7d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\01.UnitTool\00.MonsterSetting">
+      <UniqueIdentifier>{fc14b44f-4c41-4708-b926-c383daf7da57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\03.WordTool">
+      <UniqueIdentifier>{544bccea-2237-46b2-aba6-633e4572ac2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\01.UnitTool\01.EnvironSetting">
+      <UniqueIdentifier>{a7d40f9d-20dd-4b40-b1ec-987a74fa3f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\04.EventTool">
+      <UniqueIdentifier>{99753280-0586-4623-be1b-f621a3bb9630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Manangers\02.ViewMgr">
+      <UniqueIdentifier>{f4de6d83-0844-4232-b30c-353cc416d3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Dialog\00.MainDialog\04.EventTool\00. EventObject">
+      <UniqueIdentifier>{2ce868ed-cd7b-47b3-b669-1df5f420983b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00.WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03.View</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Manangers\00.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Manangers\01.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>03.View\00.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98.Manangers\03.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>98.Manangers\04.MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Manangers\05.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>98.Manangers\06.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>04.Dialog\00.MainDialog\02.MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDialog.h">
+      <Filter>04.Dialog\00.MainDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AddMap.h">
+      <Filter>04.Dialog\00.MainDialog\02.MapTool\00.AddMap</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteTool.h">
+      <Filter>04.Dialog\00.MainDialog\00.SpriteTool</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfoMgr.h">
+      <Filter>98.Manangers\07.FileInfoMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>05.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="WordTool.h">
+      <Filter>04.Dialog\00.MainDialog\03.WordTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterSetting.h">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool\00.MonsterSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="EnvironSetting.h">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool\01.EnvironSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTool.h">
+      <Filter>04.Dialog\00.MainDialog\04.EventTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewMgr.h">
+      <Filter>98.Manangers\02.ViewMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObj.h">
+      <Filter>04.Dialog\00.MainDialog\04.EventTool\00. EventObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00.WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03.View</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Manangers\00.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Manangers\01.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Manangers\01.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>03.View\00.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98.Manangers\03.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>98.Manangers\04.MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Manangers\05.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>98.Manangers\06.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>04.Dialog\00.MainDialog\02.MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDialog.cpp">
+      <Filter>04.Dialog\00.MainDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMap.cpp">
+      <Filter>04.Dialog\00.MainDialog\02.MapTool\00.AddMap</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteTool.cpp">
+      <Filter>04.Dialog\00.MainDialog\00.SpriteTool</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfoMgr.cpp">
+      <Filter>98.Manangers\07.FileInfoMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>05.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="WordTool.cpp">
+      <Filter>04.Dialog\00.MainDialog\03.WordTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterSetting.cpp">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool\00.MonsterSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="EnvironSetting.cpp">
+      <Filter>04.Dialog\00.MainDialog\01.UnitTool\01.EnvironSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTool.cpp">
+      <Filter>04.Dialog\00.MainDialog\04.EventTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewMgr.cpp">
+      <Filter>98.Manangers\02.ViewMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObj.cpp">
+      <Filter>04.Dialog\00.MainDialog\04.EventTool\00. EventObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+</Project>

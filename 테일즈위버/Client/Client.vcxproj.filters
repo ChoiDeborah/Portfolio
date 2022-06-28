@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.Maingame">
+      <UniqueIdentifier>{7e529db2-004c-4980-ac83-0854cdfdb611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{1e9891eb-c3ef-44c5-a6ab-d40288a28b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject">
+      <UniqueIdentifier>{39a6aa7b-af5b-4f7a-beff-e61cd0202de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers">
+      <UniqueIdentifier>{28cefd62-27c9-4853-b0c5-4efeb397e992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr">
+      <UniqueIdentifier>{5c7d245c-c532-4b84-9ccc-7be0345eefb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture">
+      <UniqueIdentifier>{9fbf6c62-8d85-4a3c-adab-c66c242f480b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\01.MultiTexture">
+      <UniqueIdentifier>{2eac4d65-fdbc-47e0-bbcc-b7e6b5ed72cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\02.TextureMgr\00.Texture\00.SingleTexture">
+      <UniqueIdentifier>{62257270-c8a5-41e8-bdd2-03ca48a10e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{132cb764-29d7-4372-9c49-135323811386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\00.Logo">
+      <UniqueIdentifier>{f9d232eb-17a5-4839-b9ab-9ba6eb817c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\00.SceneMgr">
+      <UniqueIdentifier>{e69cbd93-0928-46ae-a3e0-fbd64a62ec2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\01.ObjMgr">
+      <UniqueIdentifier>{3e12be93-0c0d-441d-81e5-21695d68b722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\03.DeviceMgr">
+      <UniqueIdentifier>{5aa8c37a-ab93-4885-86fe-dfdf668efe3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\05.KeyMgr">
+      <UniqueIdentifier>{aef4849a-cf2c-41a2-9ef8-73eeaa6cf3dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr">
+      <UniqueIdentifier>{187ae260-a075-4de6-a051-226d1a832570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\07.TimeMgr">
+      <UniqueIdentifier>{c3b4af94-bf26-4d52-ad03-2f4544c6442c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\08.CollisionMgr">
+      <UniqueIdentifier>{276cef69-3e38-49d1-8f86-2194c85ca758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\07.TimeMgr\00.Alarm">
+      <UniqueIdentifier>{c14ba053-b06f-4990-a0d4-8ce753b62a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\09.FrameMgr">
+      <UniqueIdentifier>{92fa1c29-0e27-414f-9ff4-993f826f1a4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\10.MouseMgr">
+      <UniqueIdentifier>{d50fc86f-e29a-4a52-96a8-3c663586fc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\11.TileMgr">
+      <UniqueIdentifier>{86a2a789-f528-4c33-a9eb-4ad950ae7292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject">
+      <UniqueIdentifier>{2d54d161-da32-4e80-afd0-4f1dfd3739f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject">
+      <UniqueIdentifier>{2479b287-34ab-4f8d-976c-87dcb23c0855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\00.Player">
+      <UniqueIdentifier>{a6f2e763-946f-4d6b-aa89-7176cd030aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\04.ViewMgr">
+      <UniqueIdentifier>{4e584505-e443-4c97-8214-5624c30b4871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\01.Monster">
+      <UniqueIdentifier>{3e8603d9-3e10-47d7-abe3-1712d4b0b190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.Title">
+      <UniqueIdentifier>{30a8677f-e667-4f23-a77a-7880655ce75e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.Stage">
+      <UniqueIdentifier>{988c2aec-4fdf-47aa-a6ea-679d6a5482b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\00.Player\00.Character">
+      <UniqueIdentifier>{a3ee1eb5-ea8a-4bf6-9d7a-d557bbbb2bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko">
+      <UniqueIdentifier>{49a7129b-3a77-40f5-9780-bffc63cfba33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\01.Monster\00.DarkCow">
+      <UniqueIdentifier>{1f62aeb3-874f-439e-b7af-9cd04cd63c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\01.Monster\01.Fixy">
+      <UniqueIdentifier>{55797208-b446-4617-9a01-6eae64f6d9ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\00.Chain">
+      <UniqueIdentifier>{1a8aa8bf-f30d-427f-8f17-aee062c6ee87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\12.WordMgr">
+      <UniqueIdentifier>{905be81d-36a7-4450-9d8e-68404d165385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\00.Observer">
+      <UniqueIdentifier>{c66fb83d-d935-4744-bd7d-1e60f69cd0a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\01.Subject">
+      <UniqueIdentifier>{6c453b63-9e43-4fbc-9672-64821174c512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\00.Observer\00.PlayerObserver">
+      <UniqueIdentifier>{7f81297e-8cef-4d59-8ab9-93e044b57b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\01.Subject\00.PlayerSubject">
+      <UniqueIdentifier>{af3efb90-0efe-4bc0-8990-374201100b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd">
+      <UniqueIdentifier>{0a4a286f-ef6b-4630-ab58-f77bcbccbd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\00.InfoWnd">
+      <UniqueIdentifier>{0ebed230-7906-476a-80bb-c3a73b82eeae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\03.SkillWnd">
+      <UniqueIdentifier>{cf832fde-ace4-4855-8767-ed581a831df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\01.EquipWnd">
+      <UniqueIdentifier>{7ef7d474-a552-4817-bccc-db2ef336177c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\02.InvenWnd">
+      <UniqueIdentifier>{89b29073-ff9d-443d-9058-52e2e5842b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.EventScene">
+      <UniqueIdentifier>{fe220394-3ea9-46ac-99df-19019b4374e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.EventScene\00.EventObj">
+      <UniqueIdentifier>{51c08f4b-4e8f-4164-8ada-a5fe411b64a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\02.NPC">
+      <UniqueIdentifier>{43e63f02-f4f3-4f37-a539-d1e71909d8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\03.Buddy">
+      <UniqueIdentifier>{1c2f91b8-1d3e-412f-a9ee-6f4af47613c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\03.Buddy\00.Anais">
+      <UniqueIdentifier>{1862c17e-3afd-4c08-a71b-4706339de085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect">
+      <UniqueIdentifier>{bbd76f79-de80-4a81-9a65-47887bc2f260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.Effect">
+      <UniqueIdentifier>{6379e832-17d8-4d99-b1fd-0392433d2b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.Effect\00.NormalEffect">
+      <UniqueIdentifier>{2e8d795b-c673-49fd-93de-318b053580f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.Effect\01.AttackEffect">
+      <UniqueIdentifier>{070e480e-a5cb-41b7-b175-4b3d3ba3a661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.Effect\01.AttackEffect\00.DamageEffect">
+      <UniqueIdentifier>{aeb546af-5af7-4d9c-bd7e-867f0eb2a123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\03.Effect\00.Effect\01.AttackEffect\01.ComboEffect">
+      <UniqueIdentifier>{f1a86f3a-8ce0-4ddd-87a1-5eb0878c4f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\02.Item">
+      <UniqueIdentifier>{527c518f-418c-46c9-8b00-855057400a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\03.Buddy\01.Jelly">
+      <UniqueIdentifier>{988f3b19-5640-4db0-9062-91b140a2aee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\04.ChatWnd">
+      <UniqueIdentifier>{effba073-be1f-4ff7-88b9-606b62b450f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject\01.Creator">
+      <UniqueIdentifier>{d7329740-d52e-4410-ab8d-e9168f7a0400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject\00.StaticObject">
+      <UniqueIdentifier>{2eb58464-3758-4d5f-8f2f-22cc6e665d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\05.QuickWnd">
+      <UniqueIdentifier>{c220be0b-f6e8-45f5-9a30-6eb6c0ff7119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\02.NPC\00.Linda">
+      <UniqueIdentifier>{b9ab5e81-4469-4aec-8058-46bc4d3c4c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\02.NPC\01.Benya">
+      <UniqueIdentifier>{869daa1f-e7ae-48bb-af95-826df8aff33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\06.ShopWnd">
+      <UniqueIdentifier>{01b7fdb9-cdd3-42dd-b47a-607afd73930d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd">
+      <UniqueIdentifier>{35ffc69b-feec-43a5-a038-1bcfe996d025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd\00.ComboSetWnd">
+      <UniqueIdentifier>{3a893911-c630-4a29-b9a6-8675cc907e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\08.MiniMapWnd">
+      <UniqueIdentifier>{90565420-1786-4ad2-a4eb-7a50c899ccea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\02.NPC\02.Quest">
+      <UniqueIdentifier>{d7f82870-432b-4053-b73d-58d9dbaca4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\13.SoundMgr">
+      <UniqueIdentifier>{3a2eaa76-8d07-4b44-94f9-4976ee8db4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject\00.StaticObject\02.PuzzleTile">
+      <UniqueIdentifier>{051055f2-3483-4a7f-af6d-d958aa043981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject\00.StaticObject\01.PuzzleObject">
+      <UniqueIdentifier>{1beef3e4-640d-471e-be71-cc4565c80fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\00.StaticObject\00.StaticObject\00.WarpGate">
+      <UniqueIdentifier>{c8397b00-68ce-49d2-b356-8e80f56ff7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\09.CountWnd">
+      <UniqueIdentifier>{7bc2b37b-37d7-4dc6-82e9-7ffed1c89a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\01.Monster\03.Boss">
+      <UniqueIdentifier>{5358b987-9982-4eb2-bff6-04fd9e13955d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data">
+      <UniqueIdentifier>{791105c6-9da2-4e99-9798-d04a1174a93f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\00.IconData">
+      <UniqueIdentifier>{62fd7fb0-e8ec-47fd-8ff5-5ba767955282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData">
+      <UniqueIdentifier>{c7dc8a33-9168-4b39-85d6-e4effd65290c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\00.EquipData">
+      <UniqueIdentifier>{1780e8dc-ebd1-4d91-bd3f-3b19970ee0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\01.UsableData">
+      <UniqueIdentifier>{e43ecc98-9ca1-49f3-9259-18ff0fd4a8aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\00.IconData\01.SkillData">
+      <UniqueIdentifier>{a4d9642e-c9bf-4afb-9172-4a67ebaad7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\03.Data\01.WndData">
+      <UniqueIdentifier>{3b897b65-cbf8-4686-9626-fb1319a1976a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\01.Monster\02.Cat">
+      <UniqueIdentifier>{7c884865-2b65-4dff-a7a1-e072a1bef4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Managers\06.UIMgr\02.UIWnd\10.CreditWnd">
+      <UniqueIdentifier>{aa3857c5-af7a-4bba-8c7f-6d2fe613a18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\01.Fire">
+      <UniqueIdentifier>{b74aff2d-745f-4b11-b29d-b80235cfca1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Maingame.h">
+      <Filter>00.Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceMgr.h">
+      <Filter>98.Managers\03.DeviceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98.Managers\00.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>98.Managers\01.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98.Managers\05.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01.GameObject\01.EventObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMgr.h">
+      <Filter>98.Managers\10.MouseMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>98.Managers\06.UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>98.Managers\07.TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98.Managers\08.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarm.h">
+      <Filter>98.Managers\07.TimeMgr\00.Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameMgr.h">
+      <Filter>98.Managers\09.FrameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMgr.h">
+      <Filter>98.Managers\11.TileMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObject.h">
+      <Filter>01.GameObject\01.EventObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewMgr.h">
+      <Filter>98.Managers\04.ViewMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01.GameObject\03.Effect\00.Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01.GameObject\01.EventObject\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalEffect.h">
+      <Filter>01.GameObject\03.Effect\00.Effect\00.NormalEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEffect.h">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Kyoko.h">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageEffect.h">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect\00.DamageEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>02.Scene\01.Title</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkCow.h">
+      <Filter>01.GameObject\01.EventObject\01.Monster\00.DarkCow</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\00.InfoWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\02.InvenWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\01.EquipWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Fixy.h">
+      <Filter>01.GameObject\01.EventObject\01.Monster\01.Fixy</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboEffect.h">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect\01.ComboEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Chain.h">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\00.Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="WordMgr.h">
+      <Filter>98.Managers\12.WordMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>98.Managers\06.UIMgr\01.Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>98.Managers\06.UIMgr\00.Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObserver.h">
+      <Filter>98.Managers\06.UIMgr\00.Observer\00.PlayerObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSubject.h">
+      <Filter>98.Managers\06.UIMgr\01.Subject\00.PlayerSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\03.SkillWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="EventScene.h">
+      <Filter>02.Scene\03.EventScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EventObj.h">
+      <Filter>02.Scene\03.EventScene\00.EventObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>01.GameObject\01.EventObject\02.NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Anais.h">
+      <Filter>01.GameObject\01.EventObject\03.Buddy\00.Anais</Filter>
+    </ClInclude>
+    <ClInclude Include="Buddy.h">
+      <Filter>01.GameObject\01.EventObject\03.Buddy</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01.GameObject\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Jelly.h">
+      <Filter>01.GameObject\01.EventObject\03.Buddy\01.Jelly</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\04.ChatWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Creator.h">
+      <Filter>01.GameObject\00.StaticObject\01.Creator</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemData.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEquipData.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\00.EquipData</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemUsableData.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\01.UsableData</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\05.QuickWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="IconData.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillData.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\01.SkillData</Filter>
+    </ClInclude>
+    <ClInclude Include="Linda.h">
+      <Filter>01.GameObject\01.EventObject\02.NPC\00.Linda</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleObject.h">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\01.PuzzleObject</Filter>
+    </ClInclude>
+    <ClInclude Include="WarpGate.h">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\00.WarpGate</Filter>
+    </ClInclude>
+    <ClInclude Include="Benya.h">
+      <Filter>01.GameObject\01.EventObject\02.NPC\01.Benya</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\06.ShopWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ComboSetWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd\00.ComboSetWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMapWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\08.MiniMapWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98.Managers\13.SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PuzzleTile.h">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\02.PuzzleTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CountWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\09.CountWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="WndInfo.h">
+      <Filter>98.Managers\06.UIMgr\03.Data\01.WndData</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>01.GameObject\01.EventObject\01.Monster\02.Cat</Filter>
+    </ClInclude>
+    <ClInclude Include="CreditWnd.h">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\10.CreditWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\01.Fire</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Maingame.cpp">
+      <Filter>00.Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceMgr.cpp">
+      <Filter>98.Managers\03.DeviceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\00.SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>98.Managers\02.TextureMgr\00.Texture\01.MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>98.Managers\02.TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98.Managers\00.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>98.Managers\01.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98.Managers\05.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>02.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Scene\02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01.GameObject\01.EventObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMgr.cpp">
+      <Filter>98.Managers\10.MouseMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>98.Managers\06.UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>98.Managers\07.TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98.Managers\08.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarm.cpp">
+      <Filter>98.Managers\07.TimeMgr\00.Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameMgr.cpp">
+      <Filter>98.Managers\09.FrameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMgr.cpp">
+      <Filter>98.Managers\11.TileMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObject.cpp">
+      <Filter>01.GameObject\01.EventObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewMgr.cpp">
+      <Filter>98.Managers\04.ViewMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01.GameObject\03.Effect\00.Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01.GameObject\01.EventObject\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalEffect.cpp">
+      <Filter>01.GameObject\03.Effect\00.Effect\00.NormalEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackEffect.cpp">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Kyoko.cpp">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageEffect.cpp">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect\00.DamageEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>02.Scene\01.Title</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkCow.cpp">
+      <Filter>01.GameObject\01.EventObject\01.Monster\00.DarkCow</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\00.InfoWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\02.InvenWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\01.EquipWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Fixy.cpp">
+      <Filter>01.GameObject\01.EventObject\01.Monster\01.Fixy</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboEffect.cpp">
+      <Filter>01.GameObject\03.Effect\00.Effect\01.AttackEffect\01.ComboEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Chain.cpp">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\00.Chain</Filter>
+    </ClCompile>
+    <ClCompile Include="WordMgr.cpp">
+      <Filter>98.Managers\12.WordMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>98.Managers\06.UIMgr\01.Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>98.Managers\06.UIMgr\00.Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObserver.cpp">
+      <Filter>98.Managers\06.UIMgr\00.Observer\00.PlayerObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerSubject.cpp">
+      <Filter>98.Managers\06.UIMgr\01.Subject\00.PlayerSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\03.SkillWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="EventScene.cpp">
+      <Filter>02.Scene\03.EventScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EventObj.cpp">
+      <Filter>02.Scene\03.EventScene\00.EventObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>01.GameObject\01.EventObject\02.NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Anais.cpp">
+      <Filter>01.GameObject\01.EventObject\03.Buddy\00.Anais</Filter>
+    </ClCompile>
+    <ClCompile Include="Buddy.cpp">
+      <Filter>01.GameObject\01.EventObject\03.Buddy</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01.GameObject\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Jelly.cpp">
+      <Filter>01.GameObject\01.EventObject\03.Buddy\01.Jelly</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\04.ChatWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Creator.cpp">
+      <Filter>01.GameObject\00.StaticObject\01.Creator</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemData.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemEquipData.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\00.EquipData</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemUsableData.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\00.ItemData\01.UsableData</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\05.QuickWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="IconData.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillData.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\00.IconData\01.SkillData</Filter>
+    </ClCompile>
+    <ClCompile Include="Linda.cpp">
+      <Filter>01.GameObject\01.EventObject\02.NPC\00.Linda</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleObject.cpp">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\01.PuzzleObject</Filter>
+    </ClCompile>
+    <ClCompile Include="WarpGate.cpp">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\00.WarpGate</Filter>
+    </ClCompile>
+    <ClCompile Include="Benya.cpp">
+      <Filter>01.GameObject\01.EventObject\02.NPC\01.Benya</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\06.ShopWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ComboSetWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\07.ComboWnd\00.ComboSetWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMapWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\08.MiniMapWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98.Managers\13.SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PuzzleTile.cpp">
+      <Filter>01.GameObject\00.StaticObject\00.StaticObject\02.PuzzleTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CountWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\09.CountWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="WndInfo.cpp">
+      <Filter>98.Managers\06.UIMgr\03.Data\01.WndData</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>01.GameObject\01.EventObject\01.Monster\02.Cat</Filter>
+    </ClCompile>
+    <ClCompile Include="CreditWnd.cpp">
+      <Filter>98.Managers\06.UIMgr\02.UIWnd\10.CreditWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>01.GameObject\01.EventObject\00.Player\00.Character\00.Kyoko\01.Fire</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
